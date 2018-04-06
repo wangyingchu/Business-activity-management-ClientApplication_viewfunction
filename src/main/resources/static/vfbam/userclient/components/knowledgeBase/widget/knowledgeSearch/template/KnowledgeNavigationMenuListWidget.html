@@ -1,0 +1,33 @@
+<div style="padding-top:5px;padding-bottom: 5px;width: 900px;">
+    <div data-dojo-attach-point="containerNode">
+        <table width="100%">
+            <tr>
+                <td style="vertical-align: top;padding-left:5px;padding-right: 5px;">
+                    <table width="100%">
+                        <tr>
+                            <td style="vertical-align: top;">
+                                <span style="padding-top:10px;padding-bottom:10px;padding-left:5px;color: #222; font-size: 1.4em; font-weight: normal; line-height: 1.2;"><i class="icon-compass"></i> 知识导航</span>
+                            </td>
+                            <td style="vertical-align: middle;text-align: right;padding-right: 10px;">
+                                <i class="icon-plus-sign-alt"></i> <span data-dojo-type="idx.form.Link"  data-dojo-attach-event="onClick:addNewGlobalCategoriesSearchItem">添加知识导航</span>
+                                <span style="color:#666666;font-size:0.8em;padding-left: 5px;padding-right: 5px;">|</span>
+                                <i class="icon-wrench"></i> <span data-dojo-type="idx.form.Link" data-dojo-attach-event="onClick:configGlobalCategoriesSearchItems">知识导航管理</span>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="app_headerDivLine"></div>
+                    <div style="height: 280px;vertical-align: top;overflow: auto;padding: 10px;" >
+                        <table style="display: inline" data-dojo-attach-point="knowledgeNavigationItemBarsContainer">
+                        </table>
+                    </div>
+                    <div class="app_headerDivLine"></div>
+                    <div style="height: 10px;"></div>
+                    <div>
+                        <span dojoType="dijit.form.Button" data-dojo-attach-event="onClick:closeGlobalCategoriesSearchDialog"><i class='icon-remove'></i> 关闭</span>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div style="height: 5px;"></div>
+    </div>
+</div>
